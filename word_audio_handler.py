@@ -14,7 +14,7 @@ class VoicePlayerWithCache:
 
     def __init__(
         self,
-        cache_dir: str = "voice_cache",
+        cache_dir: str = "word_audio_cache",
         default_voice: str = "zh-CN-XiaoxiaoNeural",
         rate: str = "+0%",
         volume: str = "+0%",

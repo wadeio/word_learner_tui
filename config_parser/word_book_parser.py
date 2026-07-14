@@ -1,9 +1,11 @@
-from word_data_parser import parse_word_data_files, parse_word_data_file
-from config_parsing_exceptions import (
+from .word_data_parser import parse_word_data_files, parse_word_data_file
+from .config_parsing_exceptions import (
     ConfigMissingEssentialKeyError,
     UnsupportedGenerateMethodError,
     ConfigFileNotFoundError,
     CannotDecodeConfigFileAsJsonError,
+    ConfigParsingExceptions,
+    DuplicateWordBookNameError,
 )
 import os
 import json
@@ -57,10 +59,13 @@ def parse_auto_group(config: dict) -> tuple[str, dict[str, dict]]:
     if file_name_units_map is None:
         raise ConfigMissingEssentialKeyError("file_name_units_map")
 
-    for file_name_and_units in file_name_units_map.items():
-        unit_name_word_data_map["and".join(file_name_and_units[1])] = (
-            parse_word_data_file(*file_name_and_units)
-        )
+    for file_name, units in file_name_units_map.items():
+        for unit in units:
+            if not isinstance(unit, list):
+                unit = [unit]
+            unit_name_word_data_map[" and ".join(unit)] = parse_word_data_file(
+                file_name, unit
+            )
 
     return group_name, unit_name_word_data_map
 
@@ -126,19 +131,39 @@ def parse_all_word_books() -> dict:
     word_book_config_dir_abspath = get_word_book_config_dir_abspath()
     word_books = dict()
 
+    word_book_name_file_name_map = dict()
+
     for file_abspath in glob.glob(os.path.join(word_book_config_dir_abspath, "*.json")):
 
         file_name = os.path.basename(file_abspath)
 
+        logger.info(f"----------Start parsing word_book file {file_name}----------")
+
         try:
             word_book_name, word_book_content = parse_word_book_file(file_name)
-            word_books[word_book_name] = word_book_content
 
-        except Exception:
-            logger.exception(f"Error when parsing word_book file {file_name}")
+            if word_book_name in word_books.keys():
+                raise DuplicateWordBookNameError(
+                    file_name, word_book_name_file_name_map[word_book_name]
+                )
+
+            word_book_name_file_name_map[word_book_name] = file_name
+
+            word_books[word_book_name] = word_book_content
+            logger.info(f"word_book file {file_name} have been successfully parsed")
+
+        except Exception as e:
+            need_show_exception = not issubclass(type(e), ConfigParsingExceptions)
+            logger.error(
+                f"Error when parsing word_book file {file_name}",
+                exc_info=need_show_exception,
+            )
 
     return word_books
 
 
 if __name__ == "__main__":
-    print(parse_all_word_books())
+    logging.basicConfig(level=logging.DEBUG)
+    data = parse_all_word_books()
+    fd = json.dumps(data, ensure_ascii=False, indent=4)
+    print(fd)

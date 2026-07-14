@@ -1,4 +1,4 @@
-from config_parsing_exceptions import (
+from .config_parsing_exceptions import (
     ConfigFileNotFoundError,
     CannotDecodeConfigFileAsJsonError,
     NoSuchUnitError,
@@ -33,12 +33,13 @@ def parse_word_data_file(
     word_data = {"words": [], "phrases": []}
 
     for unit in units:
-        for words_and_phrases in word_data_raw_json.get("unit"):
-            if words_and_phrases is None:
-                raise NoSuchUnitError(unit, file_name)
 
-            word_data["words"].extend(words_and_phrases.get("words", []))
-            word_data["phrases"].extend(words_and_phrases.get("phrases", []))
+        words_and_phrases = word_data_raw_json.get(unit)
+        if words_and_phrases is None:
+            raise NoSuchUnitError(unit, file_name)
+
+        word_data["words"].extend(words_and_phrases.get("words", []))
+        word_data["phrases"].extend(words_and_phrases.get("phrases", []))
 
     return word_data
 

@@ -1,7 +1,7 @@
 import colorama
 from time import sleep
 from word_learner import WordLearner
-from configurations_handler.handle_word_books import parse_all_word_books
+from config_parser.word_book_parser import parse_all_word_books
 from colorama import Fore
 import json
 import os
