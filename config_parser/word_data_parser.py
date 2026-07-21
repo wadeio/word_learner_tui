@@ -16,6 +16,7 @@ def parse_word_data_file(
     units: str | list[str],
 ) -> dict[str, list[dict]]:
 
+    # get word_data_abspath
     word_data_abspath: str = os.path.join(get_word_data_dir_abspath(), file_name)
 
     if isinstance((units), str):
@@ -25,6 +26,7 @@ def parse_word_data_file(
         with open(word_data_abspath, encoding="UTF-8") as f:
             word_data_raw_json = json.load(f)
 
+    # Handle some exceptions
     except FileNotFoundError:
         raise ConfigFileNotFoundError(file_name)
     except json.JSONDecodeError:
@@ -32,6 +34,7 @@ def parse_word_data_file(
 
     word_data = {"words": [], "phrases": []}
 
+    # Organize words and phrases and return
     for unit in units:
 
         words_and_phrases = word_data_raw_json.get(unit)
@@ -40,6 +43,14 @@ def parse_word_data_file(
 
         word_data["words"].extend(words_and_phrases.get("words", []))
         word_data["phrases"].extend(words_and_phrases.get("phrases", []))
+
+        # make sure words and phrases are a list
+
+        if isinstance(word_data["words"], dict):
+            word_data["words"] = [word_data["words"]]
+
+        if isinstance(word_data["phrases"], dict):
+            word_data["phrases"] = [word_data["phrases"]]
 
     return word_data
 

@@ -60,10 +60,17 @@ def parse_auto_group(config: dict) -> tuple[str, dict[str, dict]]:
         raise ConfigMissingEssentialKeyError("file_name_units_map")
 
     for file_name, units in file_name_units_map.items():
+
+        # make sure unit is a list
+        if not isinstance(units, list):
+                units = [units]
+
         for unit in units:
-            if not isinstance(unit, list):
-                unit = [unit]
-            unit_name_word_data_map[" and ".join(unit)] = parse_word_data_file(
+            
+            if isinstance(unit, str):
+                unis = [unit]
+                
+            unit_name_word_data_map[" and ".join(unis)] = parse_word_data_file(
                 file_name, unit
             )
 
@@ -79,6 +86,7 @@ def parse_word_book_content(content: dict | list) -> dict:
     for group_or_entry in content:
         generate_method = group_or_entry.get("generate_method")
 
+        # match ervery generate_method
         if generate_method is None:
             name, data = parse_manual_entry(group_or_entry)
 
@@ -152,6 +160,8 @@ def parse_all_word_books() -> dict:
             word_books[word_book_name] = word_book_content
             logger.info(f"word_book file {file_name} have been successfully parsed")
 
+        # handle exceptions, if the exception is a designed error, just log it, else
+        # show the detail of the exception
         except Exception as e:
             need_show_exception = not issubclass(type(e), ConfigParsingExceptions)
             logger.error(
@@ -162,6 +172,7 @@ def parse_all_word_books() -> dict:
     return word_books
 
 
+# for test
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
     data = parse_all_word_books()

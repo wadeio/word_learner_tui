@@ -3,6 +3,7 @@ import logging
 logger = logging.getLogger(__file__)
 
 
+# The super class of all config parsing exceptions
 class ConfigParsingExceptions(Exception): ...
 
 
