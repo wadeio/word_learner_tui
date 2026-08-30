@@ -358,7 +358,7 @@ class WordLearner:
             pygame.mixer.music.load(
                 os.path.join(
                     os.path.dirname(os.path.abspath(__file__)),
-                    "audios",
+                    "runtime_sounds",
                     "dictation_audio-ready_go.wav",
                 )
             )

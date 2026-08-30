@@ -1,10 +1,11 @@
-from .config_parsing_exceptions import (
-    ConfigFileNotFoundError,
-    CannotDecodeConfigFileAsJsonError,
-    NoSuchUnitError,
-)
 import json
 import os
+
+from .config_parsing_exceptions import (
+    CannotDecodeConfigFileAsJsonError,
+    ConfigFileNotFoundError,
+    NoSuchUnitError,
+)
 
 
 def get_word_data_dir_abspath() -> str:
@@ -36,7 +37,6 @@ def parse_word_data_file(
 
     # Organize words and phrases and return
     for unit in units:
-
         words_and_phrases = word_data_raw_json.get(unit)
         if words_and_phrases is None:
             raise NoSuchUnitError(unit, file_name)

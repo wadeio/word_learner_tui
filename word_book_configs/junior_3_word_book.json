@@ -1,0 +1,18 @@
+{
+    "name": "初三英语单词本",
+    "content": {
+        "name": "初三上各单元单词",
+        "generate_method": "auto",
+        "file_name_units_map": {
+            "grade_9_first_semester_vocab.json": [
+                "unit1",
+                "unit2",
+                "unit3",
+                "unit4",
+                "unit5",
+                "unit6",
+                "unit7"
+            ]
+        }
+    }
+}

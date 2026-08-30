@@ -1,6 +1,6 @@
 import logging
 
-logger = logging.getLogger(__file__)
+logger = logging.getLogger(__name__)
 
 
 # The super class of all config parsing exceptions

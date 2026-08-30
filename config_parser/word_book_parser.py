@@ -1,16 +1,17 @@
-from .word_data_parser import parse_word_data_files, parse_word_data_file
+import glob
+import json
+import logging
+import os
+
 from .config_parsing_exceptions import (
-    ConfigMissingEssentialKeyError,
-    UnsupportedGenerateMethodError,
-    ConfigFileNotFoundError,
     CannotDecodeConfigFileAsJsonError,
+    ConfigFileNotFoundError,
+    ConfigMissingEssentialKeyError,
     ConfigParsingExceptions,
     DuplicateWordBookNameError,
+    UnsupportedGenerateMethodError,
 )
-import os
-import json
-import glob
-import logging
+from .word_data_parser import parse_word_data_file, parse_word_data_files
 
 logger = logging.getLogger(__name__)
 
@@ -30,7 +31,7 @@ def parse_manual_entry(config: dict) -> tuple[str, dict]:
 
 def parse_manual_group(config: dict) -> tuple[str, dict[str, dict]]:
     group_name = config.get("name", "Unnamed")
-    entry_name_word_data_map = dict()
+    entry_name_word_data_map = {}
 
     entries = config.get("entries")
 
@@ -52,7 +53,7 @@ def parse_manual_group(config: dict) -> tuple[str, dict[str, dict]]:
 
 def parse_auto_group(config: dict) -> tuple[str, dict[str, dict]]:
     group_name = config.get("name", "Unnamed")
-    unit_name_word_data_map = dict()
+    unit_name_word_data_map = {}
 
     file_name_units_map = config.get("file_name_units_map")
 
@@ -60,16 +61,14 @@ def parse_auto_group(config: dict) -> tuple[str, dict[str, dict]]:
         raise ConfigMissingEssentialKeyError("file_name_units_map")
 
     for file_name, units in file_name_units_map.items():
-
         # make sure unit is a list
         if not isinstance(units, list):
-                units = [units]
+            units = [units]
 
         for unit in units:
-            
             if isinstance(unit, str):
                 unis = [unit]
-                
+
             unit_name_word_data_map[" and ".join(unis)] = parse_word_data_file(
                 file_name, unit
             )
@@ -81,7 +80,7 @@ def parse_word_book_content(content: dict | list) -> dict:
     if isinstance(content, dict):
         content = [content]
 
-    content_map = dict()
+    content_map = {}
 
     for group_or_entry in content:
         generate_method = group_or_entry.get("generate_method")
@@ -137,12 +136,11 @@ def parse_word_book_file(file_name: str) -> tuple[str, dict]:
 def parse_all_word_books() -> dict:
 
     word_book_config_dir_abspath = get_word_book_config_dir_abspath()
-    word_books = dict()
+    word_books = {}
 
-    word_book_name_file_name_map = dict()
+    word_book_name_file_name_map = {}
 
     for file_abspath in glob.glob(os.path.join(word_book_config_dir_abspath, "*.json")):
-
         file_name = os.path.basename(file_abspath)
 
         logger.info(f"----------Start parsing word_book file {file_name}----------")
@@ -150,7 +148,7 @@ def parse_all_word_books() -> dict:
         try:
             word_book_name, word_book_content = parse_word_book_file(file_name)
 
-            if word_book_name in word_books.keys():
+            if word_book_name in word_books:
                 raise DuplicateWordBookNameError(
                     file_name, word_book_name_file_name_map[word_book_name]
                 )

@@ -1,0 +1,1042 @@
+{
+    "unit1": {
+        "words": [
+            {
+                "word": "outstanding",
+                "phonetic_symbol": "/aʊtˈstændɪŋ/",
+                "meaning": "优秀的；杰出的",
+                "part_of_speech": "adj."
+            },
+            {
+                "word": "old-fashioned",
+                "phonetic_symbol": "/ˌəʊld ˈfæʃnd/",
+                "meaning": "陈旧的；过时的",
+                "part_of_speech": "adj."
+            },
+            {
+                "word": "classical",
+                "phonetic_symbol": "/ˈklæsɪkl/",
+                "meaning": "古典的；经典的",
+                "part_of_speech": "adj."
+            },
+            {
+                "word": "ordinary",
+                "phonetic_symbol": "/ˈɔːdnri/",
+                "meaning": "普通的；平凡的",
+                "part_of_speech": "adj."
+            },
+            {
+                "word": "lamp",
+                "phonetic_symbol": "/læmp/",
+                "meaning": "灯",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "poet",
+                "phonetic_symbol": "/ˈpəʊɪt/",
+                "meaning": "诗人",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "convinced",
+                "phonetic_symbol": "/kənˈvɪnst/",
+                "meaning": "坚信的；确信的",
+                "part_of_speech": "adj."
+            },
+            {
+                "word": "philosopher",
+                "phonetic_symbol": "/fəˈlɒsəfə(r)/",
+                "meaning": "哲学家",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "dramatist",
+                "phonetic_symbol": "/ˈdræmətɪst/",
+                "meaning": "剧作家",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "judgement",
+                "phonetic_symbol": "/ˈdʒʌdʒmənt/",
+                "meaning": "看法；意见；评价",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "evaluation",
+                "phonetic_symbol": "/ɪˌvæljuˈeɪʃn/",
+                "meaning": "评价；评估",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "consider",
+                "phonetic_symbol": "/kənˈsɪdə(r)/",
+                "meaning": "认为；觉得",
+                "part_of_speech": "v."
+            },
+            {
+                "word": "background",
+                "phonetic_symbol": "/ˈbækɡraʊnd/",
+                "meaning": "背景",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "significant",
+                "phonetic_symbol": "/sɪɡˈnɪfɪkənt/",
+                "meaning": "有重大意义的；显著的",
+                "part_of_speech": "adj."
+            },
+            {
+                "word": "milestone",
+                "phonetic_symbol": "/ˈmaɪlstəʊn/",
+                "meaning": "重要事件；里程碑",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "manage",
+                "phonetic_symbol": "/ˈmænɪdʒ/",
+                "meaning": "完成（困难的事）",
+                "part_of_speech": "v."
+            },
+            {
+                "word": "impact",
+                "phonetic_symbol": "/ˈɪmpækt/",
+                "meaning": "巨大影响；强大作用",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "truth",
+                "phonetic_symbol": "/truːθ/",
+                "meaning": "真理",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "concentrated",
+                "phonetic_symbol": "/ˈkɒnsntreɪtɪd/",
+                "meaning": "全神贯注的；全力以赴的",
+                "part_of_speech": "adj."
+            },
+            {
+                "word": "belief",
+                "phonetic_symbol": "/bɪˈliːf/",
+                "meaning": "相信",
+                "part_of_speech": "n."
+            }
+        ],
+        "phrases": [
+            {
+                "phrase": "with something in mind",
+                "meaning": "考虑到……"
+            },
+            {
+                "phrase": "in addition to",
+                "meaning": "除……之外"
+            },
+            {
+                "phrase": "be fond of",
+                "meaning": "喜爱"
+            },
+            {
+                "phrase": "reach for",
+                "meaning": "伸手去拿"
+            },
+            {
+                "phrase": "fight for",
+                "meaning": "为……作斗争"
+            }
+        ]
+    },
+    "unit2": {
+        "words": [
+            {
+                "word": "firm",
+                "phonetic_symbol": "/fɜːm/",
+                "meaning": "牢固的；坚硬的",
+                "part_of_speech": "adj."
+            },
+            {
+                "word": "ignorance",
+                "phonetic_symbol": "/ˈɪɡnərəns/",
+                "meaning": "无知",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "application",
+                "phonetic_symbol": "/ˌæplɪˈkeɪʃn/",
+                "meaning": "（尤指理论、发现等的）应用",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "fancy",
+                "phonetic_symbol": "/ˈfænsi/",
+                "meaning": "精致的；绚丽的",
+                "part_of_speech": "adj."
+            },
+            {
+                "word": "satisfied",
+                "phonetic_symbol": "/ˈsætɪsfaɪd/",
+                "meaning": "满意的；满足的",
+                "part_of_speech": "adj."
+            },
+            {
+                "word": "prince",
+                "phonetic_symbol": "/prɪns/",
+                "meaning": "王子",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "displace",
+                "phonetic_symbol": "/dɪsˈpleɪs/",
+                "meaning": "排出；挤出；取代；替代",
+                "part_of_speech": "v."
+            },
+            {
+                "word": "fool",
+                "phonetic_symbol": "/fuːl/",
+                "meaning": "欺骗；愚弄",
+                "part_of_speech": "v."
+            },
+            {
+                "word": "prison",
+                "phonetic_symbol": "/ˈprɪzn/",
+                "meaning": "监狱；牢狱",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "wire",
+                "phonetic_symbol": "/ˈwaɪə(r)/",
+                "meaning": "金属丝；电线",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "prove",
+                "phonetic_symbol": "/pruːv/",
+                "meaning": "证明；证实",
+                "part_of_speech": "v."
+            },
+            {
+                "word": "hardly",
+                "phonetic_symbol": "/ˈhɑːdli/",
+                "meaning": "几乎不；几乎没有",
+                "part_of_speech": "adv."
+            },
+            {
+                "word": "balanced",
+                "phonetic_symbol": "/ˈbælənst/",
+                "meaning": "保持（或显示）平衡的",
+                "part_of_speech": "adj."
+            },
+            {
+                "word": "reject",
+                "phonetic_symbol": "/rɪˈdʒekt/",
+                "meaning": "拒绝接受；不予考虑",
+                "part_of_speech": "v."
+            },
+            {
+                "word": "thus",
+                "phonetic_symbol": "/ðʌs/",
+                "meaning": "因此；如此",
+                "part_of_speech": "adv."
+            }
+        ],
+        "phrases": [
+            {
+                "phrase": "be satisfied with",
+                "meaning": "对……感到满足"
+            },
+            {
+                "phrase": "fill ... with",
+                "meaning": "充满；装满"
+            },
+            {
+                "phrase": "run over",
+                "meaning": "溢出"
+            },
+            {
+                "phrase": "go straight to",
+                "meaning": "直奔"
+            },
+            {
+                "phrase": "lightning rod",
+                "meaning": "避雷针"
+            },
+            {
+                "phrase": "as a whole",
+                "meaning": "作为一个整体；总体上"
+            },
+            {
+                "phrase": "get something across",
+                "meaning": "把某事讲清楚"
+            }
+        ]
+    },
+    "unit3": {
+        "words": [
+            {
+                "word": "indeed",
+                "phonetic_symbol": "/ɪnˈdiːd/",
+                "meaning": "确实（强调肯定的陈述或答复）",
+                "part_of_speech": "adv."
+            },
+            {
+                "word": "match",
+                "phonetic_symbol": "/mætʃ/",
+                "meaning": "火柴",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "shame",
+                "phonetic_symbol": "/ʃeɪm/",
+                "meaning": "令人惋惜的事；让人遗憾的事",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "remove",
+                "phonetic_symbol": "/rɪˈmuːv/",
+                "meaning": "去掉",
+                "part_of_speech": "v."
+            },
+            {
+                "word": "lower",
+                "phonetic_symbol": "/ˈləʊə(r)/",
+                "meaning": "把……放低",
+                "part_of_speech": "v."
+            },
+            {
+                "word": "practice",
+                "phonetic_symbol": "/ˈpræktɪs/",
+                "meaning": "实践；实际行动",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "decision",
+                "phonetic_symbol": "/dɪˈsɪʒn/",
+                "meaning": "决定",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "cheat",
+                "phonetic_symbol": "/tʃiːt/",
+                "meaning": "欺骗；蒙骗",
+                "part_of_speech": "v."
+            },
+            {
+                "word": "strengthen",
+                "phonetic_symbol": "/ˈstreŋθn/",
+                "meaning": "加强；增强；巩固",
+                "part_of_speech": "v."
+            },
+            {
+                "word": "fold",
+                "phonetic_symbol": "/fəʊld/",
+                "meaning": "折叠",
+                "part_of_speech": "v."
+            },
+            {
+                "word": "repetition",
+                "phonetic_symbol": "/ˌrepəˈtɪʃn/",
+                "meaning": "重复",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "pardon",
+                "phonetic_symbol": "/ˈpɑːdn/",
+                "meaning": "（用于请求别人重复某事）请再说一遍",
+                "part_of_speech": "exclamation"
+            },
+            {
+                "word": "vacation",
+                "phonetic_symbol": "/vəˈkeɪʃn/",
+                "meaning": "假期",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "somehow",
+                "phonetic_symbol": "/ˈsʌmhaʊ/",
+                "meaning": "不知为什么",
+                "part_of_speech": "adv."
+            },
+            {
+                "word": "awkward",
+                "phonetic_symbol": "/ˈɔːkwəd/",
+                "meaning": "令人尴尬的",
+                "part_of_speech": "adj."
+            },
+            {
+                "word": "laughter",
+                "phonetic_symbol": "/ˈlɑːftə(r)/",
+                "meaning": "笑；笑声",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "tear",
+                "phonetic_symbol": "/tɪə(r)/",
+                "meaning": "眼泪",
+                "part_of_speech": "n."
+            }
+        ],
+        "phrases": [
+            {
+                "phrase": "with admiration",
+                "meaning": "钦佩地；赞赏地"
+            },
+            {
+                "phrase": "right and wrong",
+                "meaning": "是非"
+            },
+            {
+                "phrase": "fresh in one's memory",
+                "meaning": "记忆犹新"
+            },
+            {
+                "phrase": "bed sheet",
+                "meaning": "床单"
+            }
+        ]
+    },
+    "unit4": {
+        "words": [
+            {
+                "word": "manage",
+                "phonetic_symbol": "/ˈmænɪdʒ/",
+                "meaning": "明智地使用（金钱、时间、信息等）",
+                "part_of_speech": "v."
+            },
+            {
+                "word": "pressure",
+                "phonetic_symbol": "/ˈpreʃə(r)/",
+                "meaning": "心理压力；紧张",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "addicted",
+                "phonetic_symbol": "/əˈdɪktɪd/",
+                "meaning": "上瘾的",
+                "part_of_speech": "adj."
+            },
+            {
+                "word": "bullying",
+                "phonetic_symbol": "/ˈbʊlɪɪŋ/",
+                "meaning": "欺凌；恃强凌弱",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "charge",
+                "phonetic_symbol": "/tʃɑːdʒ/",
+                "meaning": "职责；责任",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "awful",
+                "phonetic_symbol": "/ˈɔːfl/",
+                "meaning": "很坏的；极讨厌的",
+                "part_of_speech": "adj."
+            },
+            {
+                "word": "focus",
+                "phonetic_symbol": "/ˈfəʊkəs/",
+                "meaning": "集中（注意力）",
+                "part_of_speech": "v."
+            },
+            {
+                "word": "affect",
+                "phonetic_symbol": "/əˈfekt/",
+                "meaning": "影响",
+                "part_of_speech": "v."
+            },
+            {
+                "word": "hate",
+                "phonetic_symbol": "/heɪt/",
+                "meaning": "厌恶；讨厌",
+                "part_of_speech": "v."
+            },
+            {
+                "word": "embarrassed",
+                "phonetic_symbol": "/ɪmˈbærəst/",
+                "meaning": "窘迫的；尴尬的",
+                "part_of_speech": "adj."
+            },
+            {
+                "word": "mad",
+                "phonetic_symbol": "/mæd/",
+                "meaning": "很生气",
+                "part_of_speech": "adj."
+            },
+            {
+                "word": "mess",
+                "phonetic_symbol": "/mes/",
+                "meaning": "弄脏；弄乱",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "radio",
+                "phonetic_symbol": "/ˈreɪdiəʊ/",
+                "meaning": "广播",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "ashamed",
+                "phonetic_symbol": "/əˈʃeɪmd/",
+                "meaning": "惭愧；羞愧",
+                "part_of_speech": "adj."
+            },
+            {
+                "word": "respond",
+                "phonetic_symbol": "/rɪˈspɒnd/",
+                "meaning": "（口头或书面）回答",
+                "part_of_speech": "v."
+            },
+            {
+                "word": "sympathy",
+                "phonetic_symbol": "/ˈsɪmpəθi/",
+                "meaning": "同情",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "section",
+                "phonetic_symbol": "/ˈsekʃn/",
+                "meaning": "部分",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "newspaper",
+                "phonetic_symbol": "/ˈnjuːzpeɪpə(r)/",
+                "meaning": "报纸",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "operate",
+                "phonetic_symbol": "/ˈɒpəreɪt/",
+                "meaning": "运营；管理",
+                "part_of_speech": "v."
+            },
+            {
+                "word": "helpline",
+                "phonetic_symbol": "/ˈhelplaɪn/",
+                "meaning": "服务热线（提供咨询和信息的电话）",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "click",
+                "phonetic_symbol": "/klɪk/",
+                "meaning": "（对鼠标的）点击",
+                "part_of_speech": "n."
+            }
+        ],
+        "phrases": [
+            {
+                "phrase": "get addicted to",
+                "meaning": "对……上瘾；沉溺于……"
+            },
+            {
+                "phrase": "be in charge of",
+                "meaning": "负责"
+            },
+            {
+                "phrase": "focus on",
+                "meaning": "集中"
+            },
+            {
+                "phrase": "drive somebody mad",
+                "meaning": "使某人发狂"
+            },
+            {
+                "phrase": "mess something up",
+                "meaning": "弄脏；弄乱"
+            },
+            {
+                "phrase": "hit it off with somebody",
+                "meaning": "和某人投缘"
+            },
+            {
+                "phrase": "fall out with somebody",
+                "meaning": "与某人闹翻"
+            },
+            {
+                "phrase": "feel ashamed of",
+                "meaning": "感到羞耻"
+            },
+            {
+                "phrase": "advice column",
+                "meaning": "（报纸或杂志的）答问专栏"
+            },
+            {
+                "phrase": "agony aunt",
+                "meaning": "（报纸或杂志的）答问专栏作者"
+            }
+        ]
+    },
+    "unit5": {
+        "words": [
+            {
+                "word": "director",
+                "phonetic_symbol": "/də'rektə(r)/",
+                "meaning": "(电影、戏剧等的) 导演",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "studio",
+                "phonetic_symbol": "/'stju:diəʊ/",
+                "meaning": "(广播、电视的) 演播室",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "contestant",
+                "phonetic_symbol": "/kən'testənt/",
+                "meaning": "竞赛者；竞争者",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "upon",
+                "phonetic_symbol": "/ə'pɒn/",
+                "meaning": "(同 on) 在……上",
+                "part_of_speech": "prep."
+            },
+            {
+                "word": "zone",
+                "phonetic_symbol": "/zəʊn/",
+                "meaning": "区域",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "outdoors",
+                "phonetic_symbol": "/ˌaʊt'dɔ:z/",
+                "meaning": "在户外；在野外",
+                "part_of_speech": "adv."
+            },
+            {
+                "word": "conduct",
+                "phonetic_symbol": "/kən'dʌkt/",
+                "meaning": "实施",
+                "part_of_speech": "v."
+            },
+            {
+                "word": "concert",
+                "phonetic_symbol": "/'kɒnsət/",
+                "meaning": "音乐会；演奏会",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "gain",
+                "phonetic_symbol": "/geɪn/",
+                "meaning": "获得",
+                "part_of_speech": "v."
+            },
+            {
+                "word": "recommendation",
+                "phonetic_symbol": "/ˌrekəmen'deɪʃn/",
+                "meaning": "推荐；介绍",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "plot",
+                "phonetic_symbol": "/plɒt/",
+                "meaning": "故事情节",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "calm",
+                "phonetic_symbol": "/kɑ:m/",
+                "meaning": "使平静",
+                "part_of_speech": "v."
+            },
+            {
+                "word": "snowboarding",
+                "phonetic_symbol": "/'snəʊbɔ:dɪŋ/",
+                "meaning": "滑雪板运动",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "challenging",
+                "phonetic_symbol": "/'tʃælɪndʒɪŋ/",
+                "meaning": "挑战性的；考验能力的",
+                "part_of_speech": "adj."
+            },
+            {
+                "word": "aim",
+                "phonetic_symbol": "/eɪm/",
+                "meaning": "目的；目标",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "various",
+                "phonetic_symbol": "/'veəriəs/",
+                "meaning": "各种各样的",
+                "part_of_speech": "adj."
+            }
+        ],
+        "phrases": [
+            {
+                "phrase": "lighting operator",
+                "meaning": "灯光师"
+            },
+            {
+                "phrase": "make-up artist",
+                "meaning": "化妆师"
+            },
+            {
+                "phrase": "sound operator",
+                "meaning": "音响师"
+            },
+            {
+                "phrase": "quiz show",
+                "meaning": "智力竞赛节目"
+            },
+            {
+                "phrase": "reality show",
+                "meaning": "真人秀节目"
+            },
+            {
+                "phrase": "talent show",
+                "meaning": "才艺表演"
+            },
+            {
+                "phrase": "talk show",
+                "meaning": "脱口秀"
+            },
+            {
+                "phrase": "travel show",
+                "meaning": "旅游节目"
+            },
+            {
+                "phrase": "TV drama",
+                "meaning": "电视连续剧"
+            },
+            {
+                "phrase": "shine down upon somebody",
+                "meaning": "照在某人身上"
+            },
+            {
+                "phrase": "pass out",
+                "meaning": "昏迷；失去知觉"
+            },
+            {
+                "phrase": "time zone",
+                "meaning": "时区"
+            },
+            {
+                "phrase": "hang out",
+                "meaning": "常去某处"
+            },
+            {
+                "phrase": "film review",
+                "meaning": "影评"
+            },
+            {
+                "phrase": "board game",
+                "meaning": "棋类游戏"
+            }
+        ]
+    },
+    "unit6": {
+        "words": [
+            {
+                "word": "boil",
+                "phonetic_symbol": "/bɔɪl/",
+                "meaning": "用沸水煮（或烫洗）",
+                "part_of_speech": "v."
+            },
+            {
+                "word": "biscuit",
+                "phonetic_symbol": "/'bɪskɪt/",
+                "meaning": "饼干",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "score",
+                "phonetic_symbol": "/skɔ:(r)/",
+                "meaning": "分数；得分",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "tofu",
+                "phonetic_symbol": "/'təʊfu:/",
+                "meaning": "豆腐",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "stuff",
+                "phonetic_symbol": "/stʌf/",
+                "meaning": "东西",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "overweight",
+                "phonetic_symbol": "/ˌəʊvə'weɪt/",
+                "meaning": "超重的",
+                "part_of_speech": "adj."
+            },
+            {
+                "word": "sugary",
+                "phonetic_symbol": "/'ʃʊgəri/",
+                "meaning": "含糖的",
+                "part_of_speech": "adj."
+            },
+            {
+                "word": "menu",
+                "phonetic_symbol": "/'menju:/",
+                "meaning": "菜单",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "cucumber",
+                "phonetic_symbol": "/'kju:kʌmbə(r)/",
+                "meaning": "黄瓜",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "carrot",
+                "phonetic_symbol": "/'kærət/",
+                "meaning": "胡萝卜",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "cabbage",
+                "phonetic_symbol": "/'kæbɪdʒ/",
+                "meaning": "甘蓝；卷心菜",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "preference",
+                "phonetic_symbol": "/'prefrəns/",
+                "meaning": "偏爱；爱好",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "waiter",
+                "phonetic_symbol": "/'weɪtə(r)/",
+                "meaning": "服务员",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "sweat",
+                "phonetic_symbol": "/swet/",
+                "meaning": "汗水",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "soil",
+                "phonetic_symbol": "/sɔɪl/",
+                "meaning": "土壤",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "welcoming",
+                "phonetic_symbol": "/'welkəmɪŋ/",
+                "meaning": "令人感到惬意的",
+                "part_of_speech": "adj."
+            },
+            {
+                "word": "gentle",
+                "phonetic_symbol": "/'dʒentl/",
+                "meaning": "温和的",
+                "part_of_speech": "adj."
+            },
+            {
+                "word": "whisper",
+                "phonetic_symbol": "/'wɪspə(r)/",
+                "meaning": "低语；私语",
+                "part_of_speech": "v."
+            },
+            {
+                "word": "tend",
+                "phonetic_symbol": "/tend/",
+                "meaning": "照料；照管",
+                "part_of_speech": "v."
+            }
+        ],
+        "phrases": [
+            {
+                "phrase": "fizzy drink",
+                "meaning": "起泡饮料"
+            },
+            {
+                "phrase": "fried food",
+                "meaning": "油炸食品"
+            },
+            {
+                "phrase": "a balanced diet",
+                "meaning": "均衡的饮食"
+            },
+            {
+                "phrase": "in general",
+                "meaning": "通常；大体上"
+            },
+            {
+                "phrase": "dairy product",
+                "meaning": "乳制品"
+            },
+            {
+                "phrase": "get through",
+                "meaning": "度过；通过"
+            },
+            {
+                "phrase": "would rather",
+                "meaning": "宁愿；更喜欢"
+            },
+            {
+                "phrase": "remind somebody of",
+                "meaning": "使某人想起（类似的人、地方、事物等）"
+            }
+        ]
+    },
+    "unit7": {
+        "words": [
+            {
+                "word": "associate",
+                "phonetic_symbol": "/əˈsəʊʃieɪt/",
+                "meaning": "联系",
+                "part_of_speech": "v."
+            },
+            {
+                "word": "humour",
+                "phonetic_symbol": "/ˈhjuːmə(r)/",
+                "meaning": "幽默；幽默感",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "fence",
+                "phonetic_symbol": "/fens/",
+                "meaning": "栅栏；篱笆",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "sink",
+                "phonetic_symbol": "/sɪŋk/",
+                "meaning": "下沉；下陷",
+                "part_of_speech": "v."
+            },
+            {
+                "word": "yard",
+                "phonetic_symbol": "/jɑːd/",
+                "meaning": "码（长度单位，等于 0.9144 米）",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "survey",
+                "phonetic_symbol": "/ˈsɜːveɪ/",
+                "meaning": "查看；审视",
+                "part_of_speech": "v."
+            },
+            {
+                "word": "aloud",
+                "phonetic_symbol": "/əˈlaʊd/",
+                "meaning": "大声地",
+                "part_of_speech": "adv."
+            },
+            {
+                "word": "pity",
+                "phonetic_symbol": "/ˈpɪti/",
+                "meaning": "遗憾；可惜",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "gentleman",
+                "phonetic_symbol": "/ˈdʒentlmən/",
+                "meaning": "彬彬有礼的人；有教养的人",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "concern",
+                "phonetic_symbol": "/kənˈsɜːn/",
+                "meaning": "担心；忧虑",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "sort",
+                "phonetic_symbol": "/sɔːt/",
+                "meaning": "种类；类别",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "spring",
+                "phonetic_symbol": "/sprɪŋ/",
+                "meaning": "活力；朝气",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "bet",
+                "phonetic_symbol": "/bet/",
+                "meaning": "打赌",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "afterwards",
+                "phonetic_symbol": "/ˈɑːftəwədz/",
+                "meaning": "后来",
+                "part_of_speech": "adv."
+            },
+            {
+                "word": "brief",
+                "phonetic_symbol": "/briːf/",
+                "meaning": "简洁的；简单的",
+                "part_of_speech": "adj."
+            },
+            {
+                "word": "journalist",
+                "phonetic_symbol": "/ˈdʒɜːnəlɪst/",
+                "meaning": "新闻记者",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "pilot",
+                "phonetic_symbol": "/ˈpaɪlət/",
+                "meaning": "领航员；引水员",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "failure",
+                "phonetic_symbol": "/ˈfeɪljə(r)/",
+                "meaning": "失败",
+                "part_of_speech": "n."
+            },
+            {
+                "word": "regard",
+                "phonetic_symbol": "/rɪˈɡɑːd/",
+                "meaning": "把……视为；看待",
+                "part_of_speech": "v."
+            }
+        ],
+        "phrases": [
+            {
+                "phrase": "first-person point of view",
+                "meaning": "第一人称视角"
+            },
+            {
+                "phrase": "pick up",
+                "meaning": "捡起；重新开始"
+            },
+            {
+                "phrase": "carry on with something",
+                "meaning": "继续做某事；坚持干某事"
+            },
+            {
+                "phrase": "go on",
+                "meaning": "继续下去；持续"
+            },
+            {
+                "phrase": "be particular about",
+                "meaning": "讲究；挑剔"
+            },
+            {
+                "phrase": "get tired",
+                "meaning": "变得疲倦"
+            },
+            {
+                "phrase": "with a spring in one's step",
+                "meaning": "迈着轻快的步伐"
+            },
+            {
+                "phrase": "public speaker",
+                "meaning": "发言人；演讲者"
+            },
+            {
+                "phrase": "make a fortune",
+                "meaning": "发财；赚大钱"
+            },
+            {
+                "phrase": "pay ... back",
+                "meaning": "（向某人）还钱"
+            }
+        ]
+    }
+}
